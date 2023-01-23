@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input{
+            display: flex;
+            justify-content: center;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            font-size: larger;
+            padding-top: .4rem;
+            padding-right: 5px;
+        }
+        input {
+            font-size: 1rem;
+            height: 2rem;
+            border-radius: 5px;
+        }
+        .card-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 50px;
+            /* width: 100vw; */
+        }
+        .card{
+            /* display: inline; */
+            border: 1px solid black;
+            width: 20rem;
+            margin: 10px 10px;
+            text-align: center;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Search Example</h1>
+
+    <div class="input">
+    <label for="search">Search</label>
+    <input type="search">
+    <button>search</button>
+    </div>
+    <section class="card-wrapper">
+        
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
